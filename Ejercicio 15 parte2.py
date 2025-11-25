@@ -1,4 +1,4 @@
-# * Ejercicio 15
+# *Ejercicio 15
 # Crea una aplicación que dibuje una pirámide invertida de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
 try:
     altura = int(input("Introduce la altura: "))
