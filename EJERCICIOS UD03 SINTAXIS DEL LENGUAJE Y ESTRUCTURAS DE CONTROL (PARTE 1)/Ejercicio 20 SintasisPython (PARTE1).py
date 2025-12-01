@@ -7,19 +7,19 @@
 # De 7 a <9: Notable.
 # De 9 a 10: Sobresaliente.
 
-calificacion = float(input("Introduce una calificación entre 0 y 10: "))
+Nota = float(input("Introduce una calificación entre 0 y 10: "))
 
-if 0 <= calificacion < 3:
+if 0 <= Nota < 3:
     print("Muy Deficiente")
-elif 3 <= calificacion < 5:
+elif 3 <= Nota < 5:
     print("Insuficiente")
-elif 5 <= calificacion < 6:
+elif 5 <= Nota < 6:
     print("Suficiente")
-elif 6 <= calificacion < 7:
+elif 6 <= Nota < 7:
     print("Bien")
-elif 7 <= calificacion < 9:
+elif 7 <= Nota < 9:
     print("Notable")
-elif 9 <= calificacion <= 10:
+elif 9 <= Nota <= 10:
     print("Sobresaliente")
 else:
-    print("Calificación fuera de rango")
+    print("Nota fuera de rango")
