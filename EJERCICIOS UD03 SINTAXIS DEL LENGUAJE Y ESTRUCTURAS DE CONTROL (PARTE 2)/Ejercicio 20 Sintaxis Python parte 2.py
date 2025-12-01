@@ -4,11 +4,10 @@
 # Por ejemplo, si el usuario introduce 145 el programa indicará que será necesario 1 billete de 100
 # €, 2 billetes de 20 € y 1 billete de 5 € (no será válido por ejemplo 29 billetes de 5, que aunque
 # sume 145 € no es el mínimo número de billetes posible).
-try:
-    cantidad = int(input("Introduce la cantidad en euros (múltiplo de 5): "))
-    if cantidad <= 0 or cantidad % 5 != 0:
-        raise ValueError
-except ValueError:
+
+cantidad = int(input("Introduce la cantidad en euros (múltiplo de 5): "))
+
+if cantidad <= 0 or cantidad % 5 != 0:
     print("Error: Debes introducir un número positivo múltiplo de 5.")
 else:
     billetes = [500, 200, 100, 50, 20, 10, 5]
