@@ -9,18 +9,17 @@
 
 calificacion = float(input("Introduce una calificación entre 0 y 10: "))
 
-match calificacion:
-    case x if 0 <= x < 3:
-        print("Muy Deficiente")
-    case x if 3 <= x < 5:
-        print("Insuficiente")
-    case x if 5 <= x < 6:
-        print("Suficiente")
-    case x if 6 <= x < 7:
-        print("Bien")
-    case x if 7 <= x < 9:
-        print("Notable")
-    case x if 9 <= x <= 10:
-        print("Sobresaliente")
-    case _:
-        print("Calificación fuera de rango")
+if 0 <= calificacion < 3:
+    print("Muy Deficiente")
+elif 3 <= calificacion < 5:
+    print("Insuficiente")
+elif 5 <= calificacion < 6:
+    print("Suficiente")
+elif 6 <= calificacion < 7:
+    print("Bien")
+elif 7 <= calificacion < 9:
+    print("Notable")
+elif 9 <= calificacion <= 10:
+    print("Sobresaliente")
+else:
+    print("Calificación fuera de rango")
