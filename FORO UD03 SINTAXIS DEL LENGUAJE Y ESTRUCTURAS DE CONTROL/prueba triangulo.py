@@ -22,5 +22,4 @@ def ala_delta(n):
             print(espacios + "*" + hueco + "*")
 
 
-# Ejemplo: altura 10
-ala_delta(10)
+ala_delta(5)
