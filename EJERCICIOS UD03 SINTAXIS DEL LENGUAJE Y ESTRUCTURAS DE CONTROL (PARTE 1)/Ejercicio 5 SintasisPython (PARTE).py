@@ -4,14 +4,14 @@
 # círculo (El área de un círculo es pi multiplicado por el radio al cuadrado) y el volumen de la esfera
 # que corresponde con dicho radio.
 
-import math
+pi = 3.141592653589793
 
 radio = float(input("Ingrese la longitud del radio: "))
 
 diametro = 2 * radio
-circunferencia = math.pi * diametro
-area = math.pi * (radio ** 2)
-volumen = (4/3) * math.pi * (radio ** 3)
+circunferencia = pi * diametro
+area = pi * (radio ** 2)
+volumen = (4/3) * pi * (radio ** 3)
 
 print(f"Longitud de la circunferencia: {circunferencia:.2f}")
 print(f"Área del círculo: {area:.2f}")
