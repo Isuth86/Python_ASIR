@@ -13,7 +13,7 @@ def chessboard_pattern(rows=8, cols=8, block_size=3, symbol="*"):
                     line_parts.append(symbol * block_size)
                 else:
                     line_parts.append(" " * block_size)
-            print("   ".join(line_parts))  # separación entre casillas
+            print("".join(line_parts))  # separación entre casillas
         # no añadimos líneas en blanco, todo compacto
 
 
