@@ -16,7 +16,7 @@ while True:
     intentos += 1
     propuesta = (inferior + superior) // 2
     print(f"¿Es {propuesta}?")
-    respuesta = input("Tu respuesta: ").strip().lower()
+    respuesta = input("Tú respuesta: ").strip().lower()
 
     if respuesta == "igual":
         print(f"¡Genial! He adivinado tu número en {intentos} intentos.")
