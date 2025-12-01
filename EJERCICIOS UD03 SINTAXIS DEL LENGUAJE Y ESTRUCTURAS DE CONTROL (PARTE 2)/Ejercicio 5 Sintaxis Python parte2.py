@@ -3,7 +3,7 @@
 # WXVUTSRQPONMLKJIHGFEDCBA, ...., DCBA, CBA, BA, A.
 import string
 
-# Abecedario en mayúsculas invertido
+# ABECEDARIO INVERSO
 cadena = string.ascii_uppercase[::-1]  # "ZYXWVUTSRQPONMLKJIHGFEDCBA"
 
 for i in range(len(cadena)):
