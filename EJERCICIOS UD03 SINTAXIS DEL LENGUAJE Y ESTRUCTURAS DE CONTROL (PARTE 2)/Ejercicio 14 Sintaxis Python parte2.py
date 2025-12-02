@@ -7,20 +7,13 @@ def dibujar_piramide(altura):
     print(f"Dibujando una pirámide de altura: {altura}")
     print("-" * 30)
 
-    # El bucle externo recorre cada fila desde 1 hasta la altura
     for i in range(1, altura + 1):
-        # 1. Calcular los espacios: (altura - número_de_fila)
-        # Esto crea la indentación necesaria para centrar la pirámide
+      
         espacios = " " * (altura - i)
 
-        # 2. Calcular los asteriscos: (2 * número_de_fila - 1)
-        # Cada fila impar (1, 3, 5, 7...) garantiza la forma de pirámide
         asteriscos = "*" * (2 * i - 1)
 
-        # 3. Imprimir la fila: espacios + asteriscos
         print(espacios + asteriscos)
-
-# --- Bloque principal del programa ---
 
 
 while True:
